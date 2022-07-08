@@ -64,4 +64,4 @@ For this week we are using a data set consisting of cryptocurrency data to provi
 
 ## Summary:
 
-
+   - By using the PCA algorithm and K means algorithm we are able to visualize the cryptocurrency data and determine the most tradable currency.  From our analysis we found that 533 tradeable cryptocurrencies which could make a good potential candidate to add to their portfolio.
