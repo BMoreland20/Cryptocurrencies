@@ -17,7 +17,7 @@ For this week we are using a data set consisting of cryptocurrency data to provi
      - Create a new DataFrame that holds only the cryptocurrency names, and use the crypto_df DataFrame index as the index for this new DataFrame.
      - Remove the CoinName column from the crypto_df DataFrame since it's not going to be used on the clustering algorithm.
 
-![This is an image](https://github.com/BMoreland20/Cryptocurrencies/blob/main/Resources/deliverable1.png)
+      ![This is an image](https://github.com/BMoreland20/Cryptocurrencies/blob/main/Resources/deliverable1.png)
 
 
    - Deliverable 2 Reducing Data Dimensions Using PCA:
@@ -26,7 +26,7 @@ For this week we are using a data set consisting of cryptocurrency data to provi
      - Using the information we’ve provided, apply PCA to reduce the dimensions to three principal components.
      - Create a new DataFrame named pcs_df that includes the following columns, PC 1, PC 2, and PC 3, and uses the index of the crypto_df DataFrame as the index.
 
-![This is an image](https://github.com/BMoreland20/Cryptocurrencies/blob/main/Resources/deliverable2.png)
+      ![This is an image](https://github.com/BMoreland20/Cryptocurrencies/blob/main/Resources/deliverable2.png)
 
 
    - Deliverable 3 Clustering Crytocurrencies Using K-Means:
@@ -37,7 +37,7 @@ For this week we are using a data set consisting of cryptocurrency data to provi
      - Add the CoinName column that holds the names of the cryptocurrencies, which you created in Step 7 of Deliverable 1, to the clustered_df.
      - Add another new column to the clustered_df named Class that holds the predictions, i.e., model.labels_, from Step 3.
 
-![This is an image](https://github.com/BMoreland20/Cryptocurrencies/blob/main/Resources/deliverable3.png)
+      ![This is an image](https://github.com/BMoreland20/Cryptocurrencies/blob/main/Resources/deliverable3.png)
 
 
    - Deliverable 4 Visualizing Cryptocurrencies Results:
@@ -46,7 +46,7 @@ For this week we are using a data set consisting of cryptocurrency data to provi
      - Add the CoinName and Algorithm columns to the hover_name and hover_data parameters, respectively, so each data point shows the CoinName and Algorithm on hover.
      - Create a table with tradable cryptocurrencies using the hvplot.table() function.
 
-![This is an image](https://github.com/BMoreland20/Cryptocurrencies/blob/main/Resources/deliverable4.1.png)
+      ![This is an image](https://github.com/BMoreland20/Cryptocurrencies/blob/main/Resources/deliverable4.1.png)
  
      - Print the total number of tradable cryptocurrencies in the clustered_df DataFrame.
      - Use the MinMaxScaler().fit_transform method to scale the TotalCoinSupply and TotalCoinsMined columns between the given range of zero and one.
@@ -54,11 +54,11 @@ For this week we are using a data set consisting of cryptocurrency data to provi
      - Add the CoinName column from the clustered_df DataFrame to the new DataFrame.
      - Add the Class column from the clustered_df DataFrame to the new DataFrame.
 
-![This is an image](https://github.com/BMoreland20/Cryptocurrencies/blob/main/Resources/deliverable4.2.png)
+      ![This is an image](https://github.com/BMoreland20/Cryptocurrencies/blob/main/Resources/deliverable4.2.png)
  
      - Create an hvplot scatter plot with x="TotalCoinsMined", y="TotalCoinSupply", and by="Class", and have it show the CoinName when you hover over the the data point.
 
-![This is an image](https://github.com/BMoreland20/Cryptocurrencies/blob/main/Resources/deliverable4.3.png)
+      ![This is an image](https://github.com/BMoreland20/Cryptocurrencies/blob/main/Resources/deliverable4.3.1.png)
 
 
 
