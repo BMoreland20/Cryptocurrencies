@@ -17,12 +17,16 @@ For this week we are using a data set consisting of cryptocurrency data to provi
      - Create a new DataFrame that holds only the cryptocurrency names, and use the crypto_df DataFrame index as the index for this new DataFrame.
      - Remove the CoinName column from the crypto_df DataFrame since it's not going to be used on the clustering algorithm.
 
+![This is an image](https://github.com/BMoreland20/Cryptocurrencies/blob/main/Resources/deliverable1.png)
+
 
    - Deliverable 2 Reducing Data Dimensions Using PCA:
 
      - Continue using the crypto_clustering.ipynb file from Deliverable 1 where you’ve already performed the preprocessing steps.
      - Using the information we’ve provided, apply PCA to reduce the dimensions to three principal components.
      - Create a new DataFrame named pcs_df that includes the following columns, PC 1, PC 2, and PC 3, and uses the index of the crypto_df DataFrame as the index.
+
+![This is an image](https://github.com/BMoreland20/Cryptocurrencies/blob/main/Resources/deliverable2.png)
 
 
    - Deliverable 3 Clustering Crytocurrencies Using K-Means:
@@ -32,6 +36,8 @@ For this week we are using a data set consisting of cryptocurrency data to provi
      - Create a new DataFrame named clustered_df by concatenating the crypto_df and pcs_df DataFrames on the same columns. The index should be the same as the crypto_df DataFrame.
      - Add the CoinName column that holds the names of the cryptocurrencies, which you created in Step 7 of Deliverable 1, to the clustered_df.
      - Add another new column to the clustered_df named Class that holds the predictions, i.e., model.labels_, from Step 3.
+
+![This is an image](https://github.com/BMoreland20/Cryptocurrencies/blob/main/Resources/deliverable3.png)
 
 
    - Deliverable 4 Visualizing Cryptocurrencies Results:
@@ -45,6 +51,8 @@ For this week we are using a data set consisting of cryptocurrency data to provi
      - Add the CoinName column from the clustered_df DataFrame to the new DataFrame.
      - Add the Class column from the clustered_df DataFrame to the new DataFrame. 
      - Create an hvplot scatter plot with x="TotalCoinsMined", y="TotalCoinSupply", and by="Class", and have it show the CoinName when you hover over the the data point.
+
+![This is an image]()
 
 
 
